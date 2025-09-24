@@ -1,11 +1,11 @@
 # Water-Quality-Analysis
 
-**💧 Water Quality Analysis** 
+**Water Quality Analysis** 
 
 This repository contains a Notebook for analysing and predicting water quality parameters using machine learning and deep learning models.
 The dataset used is Data-Melbourne_F.csv, which contains water quality features from Melbourne.
 
-**📌 Features of the Project**
+**Features of the Project**
 
 Exploratory Data Analysis (EDA)
 
@@ -47,11 +47,11 @@ Modeling Approaches
 
     - SHAP (SHapley Additive exPlanations) for feature importance analysis
 
-**📊 Results**
+**Results**
 
 The models were trained to predict three water quality parameters:
 
-🔹 BOD (Biochemical Oxygen Demand)
+_BOD (Biochemical Oxygen Demand)_
 | Model             | MAE     | RMSE    | R²     |
 | ----------------- | ------- | ------- | ------ |
 | Random Forest     | 18.2605 | 27.4408 | 0.7433 |
@@ -59,7 +59,7 @@ The models were trained to predict three water quality parameters:
 | XGBoost           | 12.8035 | 22.2023 | 0.8319 |
 | LSTM              | 40.8785 | 51.7586 | 0.0866 |
 
-🔹 COD (Chemical Oxygen Demand)
+_COD (Chemical Oxygen Demand)_
 | Model             | MAE     | RMSE     | R²     |
 | ----------------- | ------- | -------- | ------ |
 | Random Forest     | 32.3218 | 43.7321  | 0.8788 |
@@ -67,7 +67,7 @@ The models were trained to predict three water quality parameters:
 | XGBoost           | 20.4485 | 29.1119  | 0.9463 |
 | LSTM              | 90.8709 | 116.3888 | 0.1417 |
 
-🔹 TN (Total Nitrogen)
+_TN (Total Nitrogen)_
 | Model             | MAE    | RMSE   | R²     |
 | ----------------- | ------ | ------ | ------ |
 | Random Forest     | 0.6060 | 1.0297 | 0.8452 |
@@ -84,7 +84,7 @@ The models were trained to predict three water quality parameters:
 
 - LSTM underperformed compared to tree-based models.
 
-**📈 Future Improvements**
+**Future Improvements**
 
 - Improve deep learning performance with more tuning and feature engineering.
 
@@ -92,6 +92,6 @@ The models were trained to predict three water quality parameters:
 
 - Deploy the best model as a web app or API for real-time predictions.
 
-**👩‍💻 Author**
+**Author**
 
 Yoshita Banerjee
